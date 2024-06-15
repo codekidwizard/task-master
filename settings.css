@@ -25,7 +25,7 @@ header{
     height: 50px;
     background: #c9c9c9;
     border-radius: 10px;
-  
+    cursor: pointer !important;
 }
 .text1{
     position: relative;
@@ -40,14 +40,45 @@ header{
     top: 13px;
     left: 25px;
 }
+.Dashboard{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    width: 254px;
+    height: 50px;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+.Dashboard:hover{
+    background: #b9b9b944;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    width: 254px;
+    height: 50px;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
 .text2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 28px;
     position: relative;
-    top: 90px;
-    left: 55px;
+    top: -20px;
+    left: 60px;
+}
+.Dashboard svg{
+    position: relative;
+    top: 10px;
+    left: 25px;   
 }
 .text3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
