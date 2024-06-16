@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="header2">
+    <div class="settings">
+   <a href="settings.html">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 48 48"><title>cogwheel</title><g stroke-width="1" fill="#000000" stroke="#000000" class="nc-icon-wrapper"><circle data-color="color-2" cx="24" cy="24" r="7" fill="none" stroke-linecap="square" stroke-miterlimit="10"></circle> <path d="M46,27V21L39.6,20.466a15.89,15.89,0,0,0-2.072-4.991l4.155-4.91L37.435,6.322l-4.91,4.155A15.876,15.876,0,0,0,27.534,8.4L27,2H21l-.534,6.4a15.89,15.89,0,0,0-4.991,2.072l-4.91-4.155L6.322,10.565l4.155,4.91A15.876,15.876,0,0,0,8.4,20.466L2,21v6l6.4.534a15.89,15.89,0,0,0,2.072,4.991l-4.155,4.91,4.243,4.243,4.91-4.155A15.876,15.876,0,0,0,20.466,39.6L21,46h6l.534-6.405a15.89,15.89,0,0,0,4.991-2.072l4.91,4.155,4.243-4.243-4.155-4.91A15.876,15.876,0,0,0,39.6,27.534Z" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></path></g></svg>
+    <h1 class="text1" >
+    Settings
+</h1>   
+   </a> 
+    </div>
+        
+    <div class="Dashboard">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><title>home 3</title><g stroke-width="1" fill="#000000" stroke="#000000" class="nc-icon-wrapper"><polyline data-cap="butt" points="10 23 10 17 14 17 14 23" fill="none" stroke="#000000" stroke-miterlimit="10"></polyline> <polyline data-cap="butt" data-color="color-2" points="1 11 12 2 23 11" fill="none" stroke="inherit" stroke-miterlimit="10"></polyline> <line data-cap="butt" data-color="color-2" x1="4" y1="8.545" x2="4" y2="4" fill="none" stroke="inherit" stroke-miterlimit="10"></line> <polyline points="4 13 4 23 20 23 20 13" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></polyline> <rect data-stroke="none" x="11" y="11" width="2" height="2" fill="#000000" stroke="none"></rect> <rect x="11" y="11" width="2" height="2" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10"></rect></g></svg>
+        <h1 class="text2">
+            Dashboard
+     </h1>    
+    </div>
+        </div>
+       </header> 
+       <div class="page1">
+<div class="contect">
+    <h1 class="text3">Monday, 15th November</h1>
+    <h2 class="text4">These are your task for the day</h2>
+    <button id="openPopupBtn" class="btn1">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>add</title><g fill="none" class="nc-icon-wrapper"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="#ffffff"></path></g></svg>
+        New Task
+    </button>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="closePopupBtn" class="close">&times;</span>
+            <input type="text" id="new-item-input" placeholder="Create New Task">
+            <button id="add-button">Add Task</button>
+            <h1 class="text5">GOAL</h1>
+            <div class="goal-container">
+                <div class="goal-input">
+                    <input type="text" id="goalTitle" placeholder="Goal Title">
+                    <input type="text" id="goalNote" placeholder="Goal Note">
+                    <button onclick="addGoal()">Add Goal</button>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="checkbook-container">
+    <ul id="checkbook-list">
+        <li>
+            <input type="checkbox" class="checkbox">
+            <span class="item-text">Do something</span>
+            <button class="delete-button">Delete</button>
+        </li>
+        <li>
+            <input type="checkbox" class="checkbox">
+            <span class="item-text">Do something</span>
+            <button class="delete-button">Delete</button>
+        </li>
+    </ul>
+</div>
+<h1 class="text6">Goal</h1>
+<div id="goalsList">
+    <div class="goal-item">
+        <div class="goal-header">
+            <h3>Passing Exam</h3>
+            <h6 class="text7">June 6 2044</h6>
+            <button class="delete-btn" onclick="deleteGoal(this)">Delete</button>
+        </div>
+        <div class="goal-note">
+            <p>This is an initial goal note.</p>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+       </div> 
+       <script src="dashboard.js"></script>
+</body>
+</html>
