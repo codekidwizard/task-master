@@ -1,21 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 header{
     width: 100%;
     height: 70px;
     position: fixed;
     z-index: 9999999;
 }
-
 .btn1{
     background: black;
     color: white;
     position: relative;
     left: 950px;
-    top: 20px;
+    bottom: 35px;
     width: 70px;
     height: 35px;
     border-radius: 5px;
     border: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Inter;
     cursor: pointer;
 }
 .btn2{
@@ -23,7 +23,7 @@ header{
     color: black;
     position: relative;
     left: 955px;
-    top: 20px;
+    bottom: 35px;
     width: 70px;
     height: 35px;
     border-radius: 5px;
@@ -34,7 +34,7 @@ header{
     font-size: 60px;
     line-height: 61px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Inter;
     font-weight: 600;
     word-spacing: 15px;
     position: relative;
@@ -44,7 +44,7 @@ header{
     font-size: 22px;
     line-height: 28px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Inter;
     font-weight: 400;
     position: relative;
     top: 220px;
@@ -52,10 +52,10 @@ color: rgba(0, 0, 0, 0.795);
 }
 .btn3{
     width: 150px;
-    height: 35px;
+    height: 40px;
     color: white;
     background: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Inter;
     text-align: center;
     position: relative;
     top: 240px;

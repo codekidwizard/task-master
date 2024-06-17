@@ -6,6 +6,19 @@ header{
     height: 50px;
     background: #fafbfd;
     border-bottom:1px solid #c9c9c9;
+    z-index: -1;
+}
+.logo{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    z-index: 9999;
+    cursor: pointer;
+}
+header svg{
+    position: relative;
+    bottom: 165px;
+    left: 1100px;
 }
 .header2{
     width: 300px;
@@ -13,13 +26,14 @@ header{
     background: #fafbfdb7;
     border-right:1px solid #c9c9c9;
     position: fixed;
+    bottom: 10px;
 }
 .settings{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     font-size: 25px;
     position: relative;
-    top:200px;
+    top:170px;
     left: 30px;
     width: 254px;
     height: 50px;
@@ -46,13 +60,14 @@ header{
     font-size: 25px;
     line-height: 28px;
     position: relative;
-    top: 80px;
+    top: 50px;
     left: 30px;
     width: 254px;
     height: 50px;
     cursor: pointer;
 color: #000;
     border-radius: 10px;
+    z-index: 99999999999;
 }
 .Dashboard:hover{
     background: #b9b9b944;
@@ -63,12 +78,13 @@ color: #000;
     width: 254px;
     height: 50px;
     cursor: pointer;
-
+    z-index: 99999999999;
     border-radius: 10px;
 }
 .Dashboard a{
     text-decoration: none;
     color: #000;
+    z-index: 99999999999;
 }
 .text2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,11 +94,13 @@ color: #000;
     position: relative;
     top: -20px;
     left: 60px;
+    z-index: 99999999999;
 }
 .Dashboard svg{
     position: relative;
     top: 10px;
-    left: 25px;   
+    left: 25px; 
+    z-index: 99999999999;  
 }
 .text3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
